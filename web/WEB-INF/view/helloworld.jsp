@@ -6,6 +6,9 @@
 <br><br>
 Student Name: ${param.studentName}
 
+<br><br>
+<%--Read Data from the model--%>
+The message: ${message}
 </body>
 
 </html>
