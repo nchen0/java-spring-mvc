@@ -21,6 +21,13 @@
             <form:options items="${student.countryOptions}" />
         </form:select>
         <br><br>
+        Favorite Language:
+        <form:radiobuttons path="favoriteLanguage" items="${student.languages}" />y <form:radiobutton path="favoriteLanguage" value="Ruby"/>--%>
+
+        <br><br>
+        Operating Systems:
+        <form:checkboxes path="operatingSystems" items="${student.osSystems}" />
+        <br><br>
         <input type="submit" value="Submit" />
     </form:form>
 
